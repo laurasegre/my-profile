@@ -1,0 +1,93 @@
+/*color and fonts */ 
+
+body {
+
+	background: rgb(240, 236, 227);
+	color:black;
+	font-family: font-family: 'Barlow', sans-serif;
+	font-size: 16px;
+	font-weight: lighter;
+}
+
+h1,h2,h3 {
+	font-family: font-family: 'Source Sans Pro', sans-serif;
+}
+
+h1 {
+	color: rgb(166, 141, 173);
+	font-size: 32px;
+} 
+
+h2 {
+	color: rgb(199, 177, 152);
+	font-size: 28px;
+	font-weight: bold;
+} 
+
+h3 {
+	color: rgb(166, 141, 173);
+	font-size:24 ;
+	font-weight: !important;
+}
+
+a {
+	text-decoration: none;
+	color: rgb(199, 177, 152);
+	transition: color 0.3s ease;
+}
+
+h4 {
+	color:rgb(166, 141, 173);
+	font-family:'Barlow', sans-serif;
+	font-weight: bold;
+}
+
+a: hover {
+	color: lightblue;
+	text-decoration: underline;
+}
+
+p{
+	font-size: 16px; 
+	color: gray;
+}
+
+.container-center{ 
+	width: 700px;
+	margin: 40px auto;
+ }
+
+@media (max-width: 700px) {
+	.container-center {
+		width: 600px;
+	}
+}
+
+@media (max-width: 500px) {
+	.container-center {
+		width: 400px;
+	}
+}
+
+
+ .card-white {
+ 	background-color: white;
+ 	padding: 40px;
+ 	box-shadow: 0px 10px 30px rgb(166, 141, 173,0.1);
+ 	border-radius: 4px;
+ 	margin: 20px 0px;
+ 	text-align: center;
+ }
+
+ .img-circle {
+ 	border-radius: 15%;
+ }
+
+.list-inline li {
+	display: inline;
+	padding: 10px;
+}
+
+.list-inline i {
+	font-size: 50px;
+}
